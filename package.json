@@ -1,8 +1,8 @@
 {
-  "name": "thiago-farias-site",
+  "homepage": "https://thiagoeffarias.github.io/software-engineer",
+  "name": "software-engineer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thiagofariasdev.github.io/software-engineer",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
