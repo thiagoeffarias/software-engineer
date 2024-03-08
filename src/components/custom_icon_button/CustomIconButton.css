@@ -1,0 +1,22 @@
+.button-cv.MuiButton-root {
+  font-family: "Oswald", sans-serif;
+  font-size: calc(5px + 1vmin);
+  border-color: #7e4fedc4;
+  box-shadow: 0 2px 4px #a488e6c4;
+  margin: 5px 0px 5px 0px;
+  color: black;
+}
+.button-cv.MuiButton-root:hover {
+  border-color: #7e4fedc4;
+  box-shadow: 0 4px 8px #a488e6c4;
+  transition: 0.3s;
+}
+
+.button-cv {
+  width: calc(80% - 20px);
+  padding: 0px;
+}
+
+.button span {
+  align-self: end;
+}

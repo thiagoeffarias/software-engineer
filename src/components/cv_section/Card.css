@@ -1,0 +1,74 @@
+.section-card {
+  min-width: wrap-content;
+  box-shadow: 0 2px 4px #a488e6c4;
+  border: 1px solid #7e4fedc4;
+  margin: 10px 10px 20px 10px;
+  padding: 0px 20px 0px 20px;
+  justify-items: center;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card-title {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-card:hover {
+  box-shadow: 0 4px 8px #a488e6c4;
+}
+
+.card-icon {
+  height: max-content;
+  border-radius: 5px;
+  margin: 0;
+  align-self: center;
+  transform: rotate(0deg);
+  transition: 0.2s ease-in;
+}
+
+.card-icon.down {
+  transform: rotate(-180deg);
+  transition: 0.5s ease-in-out;
+}
+
+.card-icon.up {
+  transform: rotate(360deg);
+  transition: 0.5s ease-in-out;
+}
+
+.card-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  max-height: 0;
+  opacity: 0;
+}
+
+.card-content.show {
+  max-height: 100vh; /* Adjust this value based on the actual height of your content */
+  opacity: 1;
+}
+
+.card-title h4 {
+  font-size: calc(10px + 2vmin);
+  margin: 5px 10px 5px 0px;
+  align-self: center;
+}
+
+p.item-title {
+  font-size: calc(6px + 1.5vmin);
+  width: max-content;
+  margin: 5px 10px 0px 0px;
+}
+
+p.item-subtitle {
+  width: max-content;
+  font-size: calc(6px + 1.5vmin);
+  font-weight: 400;
+  margin: 5px 10px 20px 0px;
+  color: gray;
+}
