@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/software-engineer/static/css/main.f855e6bc.css",
+    "main.js": "/software-engineer/static/js/main.5ec446ab.js",
+    "static/js/453.877a346d.chunk.js": "/software-engineer/static/js/453.877a346d.chunk.js",
+    "static/media/logo.svg": "/software-engineer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/software-engineer/index.html",
+    "main.f855e6bc.css.map": "/software-engineer/static/css/main.f855e6bc.css.map",
+    "main.5ec446ab.js.map": "/software-engineer/static/js/main.5ec446ab.js.map",
+    "453.877a346d.chunk.js.map": "/software-engineer/static/js/453.877a346d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.5ec446ab.js"
+  ]
+}
