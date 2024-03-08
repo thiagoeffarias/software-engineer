@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className="section-container right">
           <p>Download a short/full version of my CV</p>
-          <CustonIconButton title="TLDR CV" icon={<Download />} pdfUrl="./resources/CV_Thiago_Farias.pdf" />
+          <CustonIconButton title="TLDR CV" icon={<Download />} pdfUrl="./resources/THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf" />
           <CustonIconButton title="FULL VERSION CV" icon={<Download />} />
         </div>
       </div>
