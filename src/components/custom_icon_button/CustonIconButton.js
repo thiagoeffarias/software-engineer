@@ -5,7 +5,7 @@ function CustomIconButton({ title, icon }) {
 
     const handleDownload = () => {
         // Adjust the path to the PDF file based on the location of your component
-        const pdfPath = process.env.PUBLIC_URL + '/../THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf';
+        const pdfPath = process.env.PUBLIC_URL + '/THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf';
         const link = document.createElement('a');
         link.href = pdfPath;
         link.download = 'THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf'; // specify the desired filename here
