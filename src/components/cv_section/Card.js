@@ -18,14 +18,17 @@ function Card({ title, data }) {
                 />
             </div>
             <div className={`card-content ${isContentVisible ? 'show' : 'hide'}`}>
-                {data.map((item, index) => {
-                    return (
-                        <div key={index} className="item">
-                            <p className="item-title">{item.title}</p>
-                            <p className="item-subtitle">{item.subtitle}</p>
-                        </div>
-                    );
-                })}
+                {
+                    isContentVisible ?
+                        data.map((item, index) => {
+                            return (
+                                <div key={index} className="item">
+                                    <p className="item-title">{item.title}</p>
+                                    <p className="item-subtitle">{item.subtitle}</p>
+                                </div>
+                            );
+                        }) : null
+                }
             </div>
         </div>
     )

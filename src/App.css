@@ -79,7 +79,7 @@ p {
 
   .container-left,
   .container-right {
-    flex-basis: auto; /* Reset flex-basis for full width on smaller screens */
+    flex-basis: auto;
   }
 
   .container-left {

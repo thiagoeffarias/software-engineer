@@ -61,9 +61,17 @@
 }
 
 p.item-title {
-  font-size: calc(6px + 1.5vmin);
+  font-size: calc(6px + 1.8vmin);
   width: fit-content;
   text-align: left;
+  margin: 5px 10px 0px 0px;
+}
+
+p.item-company-name {
+  font-size: calc(6px + 2vmin);
+  width: fit-content;
+  text-align: left;
+  color: rgba(120, 3, 223, 0.893);
   margin: 5px 10px 0px 0px;
 }
 
@@ -71,7 +79,60 @@ p.item-subtitle {
   font-size: calc(6px + 1.5vmin);
   width: fit-content;
   text-align: left;
-  font-weight: 400;
+  font-weight: 300;
+  margin: 0px 10px 20px 0px;
+  color: rgb(80, 79, 79);
+}
+
+p.item-date {
+  font-size: calc(6px + 1vmin);
+  width: fit-content;
+  text-align: left;
+  font-weight: 300;
   margin: 5px 10px 20px 0px;
   color: gray;
+}
+
+p.item-description {
+  font-size: calc(6px + 1.5vmin);
+  width: fit-content;
+  text-align: left;
+  font-weight: 300;
+  margin: 5px 10px 20px 0px;
+  color: rgb(80, 79, 79);
+}
+
+p.subitem-company-name {
+  font-size: calc(6px + 1.8vmin);
+  width: fit-content;
+  text-align: left;
+  color: rgba(73, 7, 131, 0.893);
+  margin: 2px 0px 0px 20px;
+}
+
+p.subitem-date {
+  font-size: calc(6px + 1vmin);
+  width: fit-content;
+  text-align: left;
+  font-weight: 300;
+  margin: 2px 0px 10px 20px;
+  color: gray;
+}
+
+p.subitem-project-name {
+  font-size: calc(6px + 1.5vmin);
+  width: fit-content;
+  text-align: left;
+  font-weight: 400;
+  color: rgba(73, 7, 131, 0.893);
+  margin: 2px 0px 10px 20px;
+}
+
+p.subitem-description {
+  font-size: calc(6px + 1.5vmin);
+  width: fit-content;
+  text-align: left;
+  font-weight: 300;
+  margin: 2px 0px 10px 20px;
+  color: rgb(80, 79, 79);
 }
