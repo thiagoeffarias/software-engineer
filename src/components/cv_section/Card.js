@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Card.css';
 import ArrowDownwardOutlined from "@mui/icons-material/ArrowDownwardOutlined";
 
-function Card({ title }) {
+function Card({ title, data }) {
 
     const [isContentVisible, setIsContentVisible] = useState(false);
     const toggleContentVisibility = () => {
@@ -18,10 +18,14 @@ function Card({ title }) {
                 />
             </div>
             <div className={`card-content ${isContentVisible ? 'show' : 'hide'}`}>
-                <p className="item-title">Bachelor's Degree in Computer Systems Engineering. </p>
-                <p className="item-subtitle">Polytechnic Institute of Cávado and Ave (Portugal, 2018 -2021)</p>
-                <p className="item-title">Bachelor's Degree in Building Construction Technology. </p>
-                <p className="item-subtitle">Federal Institute of Santa Catarina (Brazil, 2010-2015)</p>
+                {data.map((item, index) => {
+                    return (
+                        <div key={index} className="item">
+                            <p className="item-title">{item.title}</p>
+                            <p className="item-subtitle">{item.subtitle}</p>
+                        </div>
+                    );
+                })}
             </div>
         </div>
     )
