@@ -1,20 +1,19 @@
 import Button from '@mui/material/Button';
 import './CustomIconButton.css';
 
-function CustomIconButton({ title, icon, pdfUrl }) {
+function CustomIconButton({ title, icon }) {
+
     const handleDownload = () => {
-        // Create a link element
+        // Adjust the path to the PDF file based on the location of your component
+        const pdfPath = process.env.PUBLIC_URL + '/../THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf';
         const link = document.createElement('a');
-        link.href = pdfUrl;
-        // Set the download attribute with the file name you want
-        link.download = 'document.pdf';
-        // Append the link to the body
+        link.href = pdfPath;
+        link.download = 'THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf'; // specify the desired filename here
         document.body.appendChild(link);
-        // Trigger the click event to start the download
         link.click();
-        // Clean up by removing the link from the body
         document.body.removeChild(link);
     };
+
 
     return <Button
         className="button-cv"
