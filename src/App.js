@@ -94,7 +94,7 @@ const previousExperiences = [
       },
       {
         "companyName": "Vodafone Qatar (a telecom company).",
-        "projectName": "Projects: o	My Vodafone App | o	Chatbot (parallel project inside My Vodafone App)",
+        "projectName": "Projects: My Vodafone App | Chatbot (parallel project inside My Vodafone App)",
         "startEndDate": "04/2019 – 01/2021",
         "description": "My Vodafone App is an “one stop shop” app. The app allows the clients to manage a variaty of contracts (tv, cable/fiber internet, telephone, data package). We implemented payment modules, packs and plans customization, find a store (on maps), etc.\n I was one of the 5 android developers involved in this project. We created the whole app from scratch and it was fully released on time to the client."
       }
