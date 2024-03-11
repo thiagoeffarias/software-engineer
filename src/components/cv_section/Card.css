@@ -1,5 +1,6 @@
 .section-card {
   width: wrap-content;
+  height: wrap-content;
   box-shadow: 0 2px 4px #a488e6c4;
   border: 1px solid #7e4fedc4;
   margin: 10px 10px 5px 10px;
@@ -41,9 +42,9 @@
   transition: 0.5s ease-in-out;
 }
 
-.card-content {
+.card-content.hide {
   width: calc(100% - 0px);
-  overflow: wrap-content;
+  overflow: hidden;
   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
   max-height: 0;
   opacity: 0;

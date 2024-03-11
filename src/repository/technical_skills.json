@@ -1,0 +1,26 @@
+[
+  {
+    "title": "+ Languages and Technologies to devolop:",
+    "subtitle": "Kotlin | Java | JavaScript | C# | C | Python | Git | Jetpack Compose | RxJava | Coroutines | Rest | Retrofit | GraphQL | Apollo | ReactJS | Angular | HTML | CSS | Bootstrap | Material UI kit."
+  },
+  {
+    "title": "+ Languages and Technologies to test",
+    "subtitle": "Unit tests | Integration tests | Espresso tests | Screenshot tests | E2E tests | Ruby | Cucumber | Gherkein | Mockito."
+  },
+  {
+    "title": "+ Platforms and tools",
+    "subtitle": "Github | Gitlab | Bitrise | Jenkins | Fastlane | Vercel | Heroku | SourceTree | Jira | Confluence | Miro | Zeplin."
+  },
+  {
+    "title": "+ Architectures",
+    "subtitle": "MVVM | MVC | MVP | Unidirectional Architecture (UDA, BUDA)."
+  },
+  {
+    "title": "+ Methodologies, technics and principles",
+    "subtitle": "Agile | Scrum | Waterfall | PDCA | Kanban | Kaizen | 5S | Clean Code | SOLID."
+  },
+  {
+    "title": "+ Languages",
+    "subtitle": "Portuguese (Native), English (Fluent), Spanish (Intermediate)"
+  }
+]

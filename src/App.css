@@ -8,7 +8,7 @@
 .header {
   height: wrap-content;
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   flex-direction: column;
   width: 100%;
   text-align: start;
@@ -31,6 +31,14 @@ h2 {
   width: 100%;
   margin-top: 50px;
   justify-content: space-around;
+}
+
+.container-full-screen {
+  width: 33.33%;
+  display: flex;
+  float: right;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
 }
 
 .section-container {
@@ -85,4 +93,19 @@ p {
   .container-left {
     align-items: center;
   }
+
+  .container-full-screen {
+    width: 100%;
+    display: flex;
+  }
+}
+
+/* profile picture */
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  zoom: 2;
+  border-radius: 50%;
+  border: 2px solid rgba(149, 0, 223, 0.72); /* Adjust the width and color as needed */
+  box-shadow: 4px 6px 8px rgba(165, 161, 165, 0.7); /* Adjust the shadow properties */
 }
