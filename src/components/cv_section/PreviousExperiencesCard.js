@@ -25,7 +25,7 @@ function PreviousExperiencesCard({ title, data }) {
             <div className='card-title'>
                 <h4>{title}</h4>
                 <ArrowDownwardOutlined
-                    className={`card-icon ${isContentVisible ? 'up' : 'down'}`}
+                    className={`card-icon ${isContentVisible ? 'down' : 'up'}`}
                 />
             </div>
             <AnimateHeight

@@ -25,7 +25,7 @@ function Card({ title, data }) {
             <div className='card-title'>
                 <h4>{title}</h4>
                 <ArrowDownwardOutlined
-                    className={`card-icon ${isArrowDown ? 'up' : 'down'}`}
+                    className={`card-icon ${isArrowDown ? 'down' : 'up'}`}
                 />
             </div>
             <AnimateHeight
