@@ -75,10 +75,28 @@ const previousExperiences = [
     "startEndDate": "04/2019 – 08/2021",
     "subitems": [
       {
-        "companyName": "Du Telecom is a telecom company from Dubai.",
+        "companyName": "Du Telecom (telecom company from Dubai).",
         "projectName": "Project: Digital Catalog",
         "startEndDate": "04/2019 – 08/2021",
         "description": "I participated in the creation of a digital catalog to perform devices comparison, presenting all the devices carachteristics and specifications in order to help clients to decided which device fits better their needs. The app was created to be used on tablets at Du stores and was meant to work “offline” the catalog was updated once a day syncing with a remote Omnichannel.\n\nFor this project we were a team of two android developers, the app was created from scratch and delivered on time."
+      },
+      {
+        "companyName": "Vodafone Portugal (a telecom company).",
+        "projectName": "Project: Smart Router",
+        "startEndDate": "06/2021 – 07/2021",
+        "description": "Smart Router is an app dedicated to manage internet contracts and routers liked to those contracts at different locations. My participation on this project was brief, related with the security, implementing reCAPTCHA. I also perfomed other smaller improviments: some api request changes, adding a new router configuration page and updating the splash screen."
+      },
+      {
+        "companyName": "Bankinter Portugal (a bank corporation).",
+        "projectName": "Project: Mock app",
+        "startEndDate": "05/2021 – 07/2021",
+        "description": "The Bankinter app was ready (developed by other team in Lisbon) and there was a request to have a version of the app with couple of mocked flows to allow performing fake transactions, for example, creating a new account and generating a token to authorize some bank operation."
+      },
+      {
+        "companyName": "Vodafone Qatar (a telecom company).",
+        "projectName": "Projects: o	My Vodafone App | o	Chatbot (parallel project inside My Vodafone App)",
+        "startEndDate": "04/2019 – 01/2021",
+        "description": "My Vodafone App is an “one stop shop” app. The app allows the clients to manage a variaty of contracts (tv, cable/fiber internet, telephone, data package). We implemented payment modules, packs and plans customization, find a store (on maps), etc.\n I was one of the 5 android developers involved in this project. We created the whole app from scratch and it was fully released on time to the client."
       }
     ]
   }

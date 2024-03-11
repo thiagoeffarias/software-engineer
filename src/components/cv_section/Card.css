@@ -1,5 +1,5 @@
 .section-card {
-  min-width: wrap-content;
+  width: wrap-content;
   box-shadow: 0 2px 4px #a488e6c4;
   border: 1px solid #7e4fedc4;
   margin: 10px 10px 5px 10px;
@@ -50,7 +50,7 @@
 }
 
 .card-content.show {
-  max-height: 100vh; /* Adjust this value based on the actual height of your content */
+  max-height: max-content; /* Adjust this value based on the actual height of your content */
   opacity: 1;
 }
 
