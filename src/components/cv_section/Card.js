@@ -31,7 +31,7 @@ function Card({ title, data }) {
             <AnimateHeight
                 id="example-panel"
                 duration={500}
-                height={height} // see props documentation below
+                height={height}
             >
                 <div className={`card-content ${isContentVisible ? 'show' : 'hide'}`}>
                     {

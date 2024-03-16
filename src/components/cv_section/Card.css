@@ -51,7 +51,7 @@
 }
 
 .card-content.show {
-  max-height: max-content; /* Adjust this value based on the actual height of your content */
+  max-height: max-content;
   opacity: 1;
 }
 
