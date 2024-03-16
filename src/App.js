@@ -45,24 +45,7 @@ function App() {
           </div>
         </div>
         <footer className="footer">
-          <div className="footer-item">
-            <a href='mailto:thiagoferreirafarias@gmail.com'>
-              <UilEnvelope color="white" />
-              <span>thiagoferreirafarias@gmail.com</span>
-            </a>
-          </div>
-          <div className="footer-item">
-            <a href='https://www.linkedin.com/in/thiagoferreirafarias/' target="_blank">
-              <UilLinkedin color="white" />
-              <span>linkedin.com/in/thiagoferreirafarias</span>
-            </a>
-          </div>
-          <div className="footer-item">
-            <a href='https://github.com/thiagoeffarias' target="_blank">
-              <UilGithub color="white" />
-              <span>github.com/thiagoeffarias</span>
-            </a>
-          </div>
+
         </footer>
       </div>
 
