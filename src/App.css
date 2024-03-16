@@ -113,11 +113,8 @@ p {
   }
 
   .footer {
-    flex-direction: column;
-  }
-
-  .footer-item {
-    display: inline-block;
+    background: red !important;
+    flex-direction: column !important;
   }
 }
 
