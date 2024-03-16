@@ -114,6 +114,11 @@ p {
   .footer {
     flex-direction: column !important;
   }
+
+  .footer-item {
+    width: 100%;
+    flex: 1;
+  }
 }
 
 /* profile picture */
@@ -156,8 +161,6 @@ p {
 
 .footer-item {
   display: flex;
-  flex: 1;
-  width: 100%;
   text-align: center;
   height: fit-content;
   justify-content: center;
