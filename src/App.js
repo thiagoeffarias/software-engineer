@@ -15,33 +15,35 @@ function App() {
   return (
     <div className="App">
       <div className='content-container'>
-        <header className="header">
-          <h1>THIAGO FERREIRA FARIAS</h1>
-          <h2>Software Engineer</h2>
-        </header>
-        <div className="container-full-screen">
-          <img src={profilePhoto} alt="Thiago Farias" className="profile-picture" />
-        </div>
-        <div className="main-container">
-          <div className="section-container left">
-            <p>Discover about my experiences and skills</p>
-            <Card title="Education" data={educationData} />
-            <Card title="Summary Experience" data={summaryExperienceData} />
-            <Card title="Technical Skills" data={technicalSkillsData} />
-            <PreviousExperiencesCard title="Previous Experiences" data={previousExeriencesData} />
+        <div className="container-frame">
+          <header className="header">
+            <h1>THIAGO FERREIRA FARIAS</h1>
+            <h2>Software Engineer</h2>
+          </header>
+          <div className="container-full-screen">
+            <img src={profilePhoto} alt="Thiago Farias" className="profile-picture" />
           </div>
-          <div className="section-container right">
-            <p>Download a short/full version of my CV</p>
-            <CustonIconButton
-              title="TLDR CV"
-              icon={<Download />}
-              pdfName="/THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf"
-            />
-            <CustonIconButton
-              title="FULL VERSION CV"
-              icon={<Download />}
-              pdfName="/THIAGO_FERREIRA_FARIAS_CV.pdf"
-            />
+          <div className="main-container">
+            <div className="section-container left">
+              <p>Discover about my experiences and skills</p>
+              <Card title="Education" data={educationData} />
+              <Card title="Summary Experience" data={summaryExperienceData} />
+              <Card title="Technical Skills" data={technicalSkillsData} />
+              <PreviousExperiencesCard title="Previous Experiences" data={previousExeriencesData} />
+            </div>
+            <div className="section-container right">
+              <p>Download a short/full version of my CV</p>
+              <CustonIconButton
+                title="TLDR CV"
+                icon={<Download />}
+                pdfName="/THIAGO_FERREIRA_FARIAS_TLDR_CV.pdf"
+              />
+              <CustonIconButton
+                title="FULL VERSION CV"
+                icon={<Download />}
+                pdfName="/THIAGO_FERREIRA_FARIAS_CV.pdf"
+              />
+            </div>
           </div>
         </div>
         <footer className="footer">

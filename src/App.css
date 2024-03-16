@@ -8,11 +8,18 @@
   height: 100vh;
 }
 
+.container-frame {
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header {
   position: relative;
-  width: 100%;
   border: 0px;
   display: flex;
+  margin-top: 20px;
   margin-bottom: 20px;
   flex-direction: column;
   text-align: start;
@@ -21,31 +28,29 @@
 }
 
 h1 {
-  margin: 0px 20px 0px 20px;
+  margin: 0px;
   font-size: calc(10px + 6vmin);
 }
 
 h2 {
-  margin: 0px 20px 0px 20px;
+  margin: 0px;
   font-size: calc(10px + 3vmin);
 }
 
 .main-container {
   position: relative;
   display: flex;
-  width: 100%;
   margin-bottom: 5rem;
   justify-content: space-around;
-  flex: 1;
 }
 
 .container-full-screen {
   position: relative;
   width: 33.33%;
   display: flex;
-  align-self: flex-end;
   margin-bottom: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-self: flex-end;
 }
 
 .section-container {
@@ -123,26 +128,28 @@ p {
 
 /* profile picture */
 .profile-picture {
-  height: 100px;
-  width: 100px;
-  zoom: 2;
+  width: 50%;
   border-radius: 50%;
-  border: 2px solid rgba(149, 0, 223, 0.72); /* Adjust the width and color as needed */
+  border: 5px solid rgba(149, 0, 223, 0.72); /* Adjust the width and color as needed */
   box-shadow: 4px 6px 8px rgba(165, 161, 165, 0.7); /* Adjust the shadow properties */
   transition: all 0.3s ease;
+  z-index: 3;
 }
 
 .profile-picture:hover {
-  transform: scale(1.8);
+  width: 52%;
+  border-radius: 5%;
+  border: 2px solid rgba(149, 0, 223, 0.72);
+  box-shadow: 10px 10px 12px rgba(21, 9, 21, 0.7);
   border-width: 0.5px;
 }
 
 .content-container {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  height: 100%;
 }
 
 .footer {
