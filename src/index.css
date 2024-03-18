@@ -9,6 +9,12 @@ body {
   direction: column;
 }
 
+#root {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
