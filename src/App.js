@@ -6,9 +6,11 @@ import PreviousExperiencesCard from './components/cv_section/PreviousExperiences
 import educationData from './repository/education.json';
 import summaryExperienceData from './repository/summary_experience.json';
 import technicalSkillsData from './repository/technical_skills.json';
+import softSkillsData from './repository/soft_skills.json';
 import previousExeriencesData from './repository/previous_experiences.json';
 import profilePhoto from './images/me_coffee.jpeg';
 import { UilEnvelope, UilLinkedin, UilGithub } from '@iconscout/react-unicons';
+import { Slideshow } from './components/carousel/SlidesShow';
 
 function App() {
 
@@ -28,6 +30,7 @@ function App() {
               <p>Discover about my experiences and skills</p>
               <Card title="Education" data={educationData} />
               <Card title="Summary Experience" data={summaryExperienceData} />
+              <Card title="Soft Skills" data={softSkillsData} />
               <Card title="Technical Skills" data={technicalSkillsData} />
               <PreviousExperiencesCard title="Previous Experiences" data={previousExeriencesData} />
             </div>
